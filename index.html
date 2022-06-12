@@ -13,7 +13,13 @@
         <link rel="stylesheet" href="styling/style.css">
         <link rel="stylesheet" href="styling/skins/color-1.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
+        <!-- STYLE SWITCHER -->
+        <link rel="stylesheet" href="styling/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+        <link rel="stylesheet" href="styling/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+        <link rel="stylesheet" href="styling/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+        <link rel="stylesheet" href="styling/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+        <link rel="stylesheet" href="styling/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+        <link rel="stylesheet" href="styling/style-switcher.css">
     </head>
     <body>
         <!-- MAIN CONTAINER START-->
@@ -27,18 +33,18 @@
                     <span></span>
                 </div>
                 <ul class="nav">
-                    <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="pages/user.html"><i class="fa fa-user"></i> About</a></li>
-                    <li><a href="pages/services.html"><i class="fa fa-list"></i> Services</a></li>
-                    <li><a href="pages/portfolio.html"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                    <li><a href="pages/contact.html"><i class="fa fa-comments"></i> Contact</a></li>
+                    <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                    <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
                 </ul>
             </div>
             <!-- ASIDE END -->
             <!-- MAIN CONTENT START -->
             <div class="main-content">
                 <!-- HOME SECTION START -->
-                <section class="home section">
+                <section class="home section" id="home">
                         <div class="container">
                             <div class="row">
                                 <div class="home-info padd-15">
@@ -58,7 +64,7 @@
                 </section>
                 <!-- HOME SECTION END -->
                 <!-- ABOUT SECTION START-->
-                <section class="about section">
+                <section class="about section" id="about">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -219,7 +225,7 @@
                 </section>
                 <!-- ABOUT SECTION END-->
                 <!-- SERVICES SECTION START -->
-                <section class="service section">
+                <section class="service section" id="services">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -298,7 +304,7 @@
                 </section>
                 <!-- SERVICES SECTION END -->
                 <!-- PORTFOLIO SECTION START -->
-                <section class="portfolio section">
+                <section class="portfolio section" id="portfolio">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -370,7 +376,7 @@
                 </section>
                 <!-- PORTFOLIO SECTION END -->
                 <!-- CONTACT SECTION START -->
-                <section class="contact section">
+                <section class="contact section" id="contact">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -462,11 +468,27 @@
             <!-- MAIN CONTENT END -->
         </div>
         <!-- MAIN CONTAINER END-->
+        <!-- STYLE SWITCHER START -->
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
 
-
-
-
+            </div>
+        </div>
+        <!-- STYLE SWITCHER END -->
         <!-- JAVASCRIPT--> 
         <script src="script/script.js"></script>       
+        <script src="script/style-switcher.js"></script>       
     </body>
 </html>
