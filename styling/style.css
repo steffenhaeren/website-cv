@@ -402,6 +402,7 @@ h3.my-profession {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
+    margin-bottom: 60px;
 }
 
 .about .about-content .personal-info {
@@ -430,6 +431,10 @@ h3.my-profession {
     margin: 10px;
     align-items: center;
     transition: all 0.3s ease;
+}
+
+#eduAndExp{
+    margin-top: 60px;
 }
 
 .about .about-content .skills .col-6 .skill-item:hover{
