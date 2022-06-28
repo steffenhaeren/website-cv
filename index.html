@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="styling/skins/color-1.css">
         <link rel="stylesheet" href="styling/styleTimeline.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        
+        
         <!-- STYLE SWITCHER -->
         <link rel="stylesheet" href="styling/skins/color-1.css" class="alternate-style" title="color-1" disabled>
         <link rel="stylesheet" href="styling/skins/color-2.css" class="alternate-style" title="color-2" disabled>
@@ -220,84 +222,160 @@
                                     </div>
                                     
                                 </div>
+                                <br><br>
                                 <div class="row">
                                     <h3 class="title">Timeline</h3>
                                 </div>
                                
-                                    <div class="row">
-                                        <div class="bodyTimeline">
-                                            <section class="introTimeline">
-                                              <div class="containerTimeline">
-                                                <h1 class=".h1Timeline">Vertical Timeline &darr;</h1>
+                                <div class="flex flex-col justify-center py-6 lg:py-12">
+                                    <div class="w-full mx-auto lg:max-w-4xl">
+                              
+                                      <div class="relative">
+                              
+                                        <!-- Vertical middle line-->
+                                        <div class="absolute hidden w-px h-full transform -translate-x-1/2 bg-indigo-300 lg:block left-1/2"></div>
+                                        <div class="space-y-12 lg:space-y-8">
+
+                                          <!-- Left section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-start w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pr-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-cyan-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
+                                                  </div>
+                                                </div>
                                               </div>
-                                            </section>
-                                            
-                                            <section class="timeline">
-                                              <ul>
-                                                <li>
-                                                  <div>
-                                                    <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">1</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Right section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-end w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pl-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-red-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">2</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Left section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-start w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pr-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-yellow-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">3</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Right section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-end w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pl-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-lime-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">4</span>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- Left section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-start w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pr-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-blue-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">5</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Right section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-end w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pl-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-pink-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">6</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Left section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-start w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pr-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-purple-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">7</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                              
+                                          <!-- Right section -->
+                                          <div>
+                                            <div class="flex flex-col items-center">
+                                              <div class="flex items-center justify-end w-full mx-auto">
+                                                <div class="w-full lg:w-1/2 lg:pl-8">
+                                                  <div class="p-4 bg-white rounded shadow-lg shadow-orange-300">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur dolor elit. </p>
                                                   </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
-                                                  </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
-                                                  </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                                                  </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                                                  </div>
-                                                </li>
-                                                <li>
-                                                  <div>
-                                                    <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                                                  </div>
-                                                </li>
-                                              </ul>
-                                            </section>
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-indigo-400 border-2 border-red-200 rounded-full left-1/2 sm:translate-y-0">
+                                                <span class="text-white">8</span>
+                                              </div>
+                                            </div>
+                                          </div>
+
                                         </div>
+                                      </div>
                                     </div>
+                                  </div>
                                
                             </div>
                         </div>
@@ -571,6 +649,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
         <script src="script/script.js"></script>       
         <script src="script/style-switcher.js"></script>    
-        <script src="script/scriptTimeline.js"></script>   
+        <script src="script/scriptTimeline.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>   
     </body>
 </html>

@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Marck+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* GENERAL */
 :root {
@@ -317,28 +314,32 @@ ul {
 h3.hello {
     font-size: 20px;
     margin: 15px 0;
+    font-weight: 600;
 }
 
 h3.hello span {
     font-family: 'Marck Script', cursive;
     font-size: 30px;
-    font-weight: 6000;
+    font-weight: 600;
     color: var(--skin-color);
 }
 
 h3.my-profession {
     font-size: 30px;
     margin: 15px 0;
+    font-weight: 500;
 }
 
 .typing {
     color: var(--skin-color);
+    font-weight: 500;
 }
 
 .home-info p {
     margin-bottom: 70px;
     font-size: 20px;
     color: var(--text-black-700);
+    font-weight: 500;
 }
 
 .home .home-img {
